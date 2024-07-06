@@ -1,0 +1,9 @@
+[flyway]
+locations = ["filesystem:migrations"]
+
+
+[environments.default]
+locations = ["filesystem:migrations"]
+url = "jdbc:h2:mem:db"
+user = "postgres"
+password = "postgres"
